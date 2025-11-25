@@ -1,14 +1,12 @@
-
-	min {
-		display: grid;
-		grid-template-areas: 
+min {
+	display: flex;
+	grid-template-areas:
 		"tt"
 		"t"
 		"d"
 		"dd";
-		width: 100px;
-	}
-
+	width: 100%;
+}
 body {
 	display: flex;
 	width: max-content;
@@ -19,8 +17,7 @@ body {
 main {
 	display: flex;
 	background-color: #070724;
-	width: 375px;
-	height: 837px;
+	
 	color: white;
 	flex-direction: column;
 	align-items: center;
@@ -32,8 +29,7 @@ main {
 ttp {
 	display: flex;
 	color: white;
-	width: 327px;
-	height: 36vh;
+	
 	grid-area: tt;
 }
 .theplanets {
@@ -57,7 +53,7 @@ top {
 }
 down {
 	display: flex;
-	width: fit-content;
+	
 	align-items: center;
 	flex-direction: column;
 	margin-top: 5vh;
@@ -72,8 +68,9 @@ down {
 
 h3 {
 	display: flex;
-	width: 327px;
-	height: 110px;
+	padding-left: 5;
+	padding-right: 5;
+	
 	font-optical-sizing: 11px;
 	align-items: center;
 	flex-direction: column;
@@ -125,7 +122,6 @@ ddown {
 			"tt"
 			"t"
 			"d"
-			"ddone, ddtwo"
-			;
+			"dd";
 	}
 }
